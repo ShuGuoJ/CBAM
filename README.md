@@ -9,7 +9,7 @@ opencv 3.4
 在这里，我使用了CIFAR100数据集分别训练了Resnet, SEResnet和CBAMResnet三个网络，并绘出了学习曲线来探讨三者的优缺点。  
 ![image](imgs/Resnet.PNG)  
 ![image](imgs/SENet.PNG)  
-![image](imgs/CBAM.PNG)
+![image](imgs/CBAM.PNG)  
 从上面三幅图中可知：  
 收敛速度：CBAMResnet > SEResnet > Resnet  
 训练模型精度：CBAMResnet > SEResnet > Resnet  

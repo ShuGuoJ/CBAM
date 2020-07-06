@@ -10,4 +10,8 @@ opencv 3.4
 ![image](imgs/Resnet.PNG)  
 ![image](imgs/SENet.PNG)  
 ![image](imgs/CBAM.PNG)
+从上面三幅图中可知：  
+收敛速度：CBAMResnet > SEResnet > Resnet  
+训练模型精度：CBAMResnet > SEResnet > Resnet  
+但是三个模型都明显地出现了过拟合现象，模型中使用了dropout来避免这个现象但是效果并不明显。所以，接下来的工作是增加模型的限制或者是使用数据增强等方法来提高模型的泛化能力。
 

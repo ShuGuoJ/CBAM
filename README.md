@@ -5,5 +5,5 @@ python 3.7
 pytorch 1.5  
 torchvision 0.6  
 opencv 3.4
-#Comprison
+# Comprison
 在这里，我使用了CIFAR100数据集分别训练了Resnet, SEResnet和CBAMResnet三个网络，并绘出了学习曲线来探讨三者的优缺点。

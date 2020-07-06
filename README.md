@@ -7,4 +7,4 @@ torchvision 0.6
 opencv 3.4
 # Comprison
 在这里，我使用了CIFAR100数据集分别训练了Resnet, SEResnet和CBAMResnet三个网络，并绘出了学习曲线来探讨三者的优缺点。  
-imgs/CBAM.PNG
+![image](imgs/CBAM.PNG)
